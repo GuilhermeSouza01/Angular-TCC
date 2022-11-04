@@ -1,0 +1,6 @@
+<div class="wrappButton">
+    <button  class="generateButton" (click)="showContent()">Gerar Tabela</button>
+  </div>
+  <div class="container" *ngIf="showTable">
+    <app-table></app-table>
+  </div>
